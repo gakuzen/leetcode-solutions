@@ -1,1 +1,1 @@
-# [JavaScript] LeetCode Answers
+# [JavaScript] LeetCode Solutions
