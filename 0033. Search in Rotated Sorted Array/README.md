@@ -22,5 +22,5 @@
 ## #1 Solution
 
 - Approach: Two pointers moving inwards
-- Time complexity: O(log n)
+- Time complexity: O(n)
 - Space complexity: O(1)
