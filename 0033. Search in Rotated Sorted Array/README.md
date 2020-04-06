@@ -24,3 +24,9 @@
 - Approach: Two pointers moving inwards
 - Time complexity: O(n)
 - Space complexity: O(1)
+
+## #2 Solution
+
+- Approach: Sorted half binary search
+- Time complexity: O(log n)
+- Space complexity: O(1)
