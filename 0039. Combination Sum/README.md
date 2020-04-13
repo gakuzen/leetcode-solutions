@@ -34,6 +34,6 @@
 
 ## #2 Solution
 
-- Approach: Interative
+- Approach: Iterative
 - Time complexity: O(n^target), n is the length of candidates array
 - Space complexity: O(n^target)
