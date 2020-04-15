@@ -17,7 +17,7 @@ const search = (candidates, target, ans, index = 0, buffer = []) => {
   if (index >= candidates.length) return;
 
   buffer.push(candidates[index]);
-  search(candidates, index, target - candidates[index], buffer, ans);
+  search(candidates, target - candidates[index], ans, index, buffer);
   buffer.pop();
-  search(candidates, index + 1, target, buffer, ans);
+  search(candidates, target, ans, index + 1, buffer);
 };

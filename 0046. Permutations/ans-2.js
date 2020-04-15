@@ -18,8 +18,8 @@ const backtrack = (nums, ans, remaining, current = []) => {
     backtrack(
       nums,
       ans,
-      current,
-      remaining.slice(0, i).concat(remaining.slice(i + 1))
+      remaining.slice(0, i).concat(remaining.slice(i + 1)),
+      current
     );
     current.pop();
   }

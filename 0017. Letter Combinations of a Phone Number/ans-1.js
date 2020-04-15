@@ -30,6 +30,6 @@ const combine = (digits, map, ans, index = 0, str = "") => {
   }
 
   for (let char of map[digits[index]]) {
-    combine(digits, map, index + 1, str.concat(char), ans);
+    combine(digits, map, ans, index + 1, str.concat(char));
   }
 };
