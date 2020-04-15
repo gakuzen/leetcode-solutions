@@ -2,7 +2,7 @@
  * @param {string} digits
  * @return {string[]}
  */
-var letterCombinations = function(digits) {
+var letterCombinations = function (digits) {
   if (!digits) return [];
   if (digits.length === 0) return [];
 
@@ -14,16 +14,16 @@ var letterCombinations = function(digits) {
     6: ["m", "n", "o"],
     7: ["p", "q", "r", "s"],
     8: ["t", "u", "v"],
-    9: ["w", "x", "y", "z"]
+    9: ["w", "x", "y", "z"],
   };
 
   let ans = [];
 
-  combine(digits, map, 0, "", ans);
+  combine(digits, map, ans);
   return ans;
 };
 
-const combine = (digits, map, index, str, ans) => {
+const combine = (digits, map, ans, index = 0, str = "") => {
   if (index === digits.length) {
     ans.push(str);
     return ans;

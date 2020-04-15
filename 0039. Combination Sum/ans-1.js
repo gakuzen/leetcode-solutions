@@ -7,11 +7,11 @@ var combinationSum = function (candidates, target) {
   let ans = [];
 
   let buffer = [];
-  search(candidates, 0, target, buffer, ans);
+  search(candidates, target, ans);
   return ans;
 };
 
-const search = (candidates, index, target, buffer, ans) => {
+const search = (candidates, target, ans, index = 0, buffer = []) => {
   if (target === 0) return ans.push(Array.from(buffer));
   if (target < 0) return;
   if (index >= candidates.length) return;

@@ -2,7 +2,7 @@
  * @param {string} digits
  * @return {string[]}
  */
-var letterCombinations = function(digits) {
+var letterCombinations = function (digits) {
   if (!digits) return [];
   if (digits.length === 0) return [];
 
@@ -14,7 +14,7 @@ var letterCombinations = function(digits) {
     6: ["m", "n", "o"],
     7: ["p", "q", "r", "s"],
     8: ["t", "u", "v"],
-    9: ["w", "x", "y", "z"]
+    9: ["w", "x", "y", "z"],
   };
 
   let ans = [];
@@ -25,7 +25,7 @@ var letterCombinations = function(digits) {
       if (ans.length === 0) {
         tmp.push(char);
       } else {
-        tmp = tmp.concat(ans.map(a => a + char));
+        tmp = tmp.concat(ans.map((a) => a + char));
       }
     }
     ans = tmp;

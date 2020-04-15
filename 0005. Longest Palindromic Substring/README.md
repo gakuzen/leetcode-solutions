@@ -14,6 +14,6 @@
 
 ## #1 Solution
 
-- Approach: Moving center
+- Approach: Two pointers by moving center
 - Time complexity: O(n^2)
 - Space complexity: O(1)

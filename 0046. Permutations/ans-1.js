@@ -5,12 +5,12 @@
 var permute = function (nums) {
   let ans = [];
 
-  backtrack(nums, ans, new Set());
+  backtrack(nums, ans);
 
   return ans;
 };
 
-const backtrack = (nums, ans, set) => {
+const backtrack = (nums, ans, set = new Set()) => {
   if (set.size === nums.length) return ans.push([...set]);
 
   for (let num of nums) {

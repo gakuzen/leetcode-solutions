@@ -2,7 +2,7 @@
  * @param {number[]} nums
  * @return {number[][]}
  */
-var threeSum = function(nums) {
+var threeSum = function (nums) {
   nums = nums.sort((a, b) => a - b);
 
   const ans = [];

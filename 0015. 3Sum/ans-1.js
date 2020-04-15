@@ -2,7 +2,7 @@
  * @param {number[]} nums
  * @return {number[][]}
  */
-var threeSumNoPreSort = function(nums) {
+var threeSum = function (nums) {
   const ans = [];
 
   const ansSet = new Set();
