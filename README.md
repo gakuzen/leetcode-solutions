@@ -2,4 +2,6 @@
 
 LeetCode Solutions in JavaScript...
 
-- If recursive approach is available, iteractive approach is also available (most of the time)
+- Best Conceivable Runtime (BCR)
+- Multiple solutions, from brute force to optimized to optimal
+- Recursive and iterative solution pair (most of the time)
