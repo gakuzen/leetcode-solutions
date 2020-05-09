@@ -20,7 +20,7 @@
 
 ## BCR
 
-- Time complexity: O(n)
+O(n)
 
 ## #1 Solution
 
