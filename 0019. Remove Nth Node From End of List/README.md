@@ -15,6 +15,10 @@
 >
 > Could you do this in one pass?
 
+## BCR
+
+O(n)
+
 ## #1 Solution
 
 - Approach: Find length first, then traverse

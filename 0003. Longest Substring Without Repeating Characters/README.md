@@ -19,6 +19,10 @@
 > Explanation: The answer is "wke", with the length of 3.
 > Note that the answer must be a substring, "pwke" is a subsequence and not a substring.
 
+## BCR
+
+O(n)
+
 ## #1 Solution
 
 - Approach: Two pointers

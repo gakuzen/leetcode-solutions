@@ -41,6 +41,10 @@
 > [16, 7,10,11]
 > ]
 
+## BCR
+
+O(n^2)
+
 ## #1 Solution
 
 - Approach: Transpose and then reverse row

@@ -16,6 +16,10 @@
 > [-1, -1, 2]
 > ]
 
+## BCR
+
+O(n^2)
+
 ## #1 Solution
 
 - Approach: Sort and add to set inside nested loops

@@ -1,11 +1,6 @@
 # [JavaScript] LeetCode Solutions
 
-LeetCode Solutions in JavaScript...
-
-## TO-DO
-
-- BCR
-- review space complexity
+LeetCode Solutions in JavaScript (in progress)
 
 ## Features
 

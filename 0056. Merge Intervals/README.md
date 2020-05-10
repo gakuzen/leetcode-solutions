@@ -16,10 +16,10 @@
 
 ## BCR
 
-O(nlogn)
+O(n\*log n)
 
 ## #1 Solution
 
 - Approach: Sort first, iterate in 1 pass and merge
-- Time complexity: O(nlogn)
+- Time complexity: O(n\*log n)
 - Space complexity: O(n)

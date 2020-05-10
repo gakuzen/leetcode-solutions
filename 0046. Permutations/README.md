@@ -15,6 +15,10 @@
 > [3,2,1]
 > ]
 
+## BCR
+
+O(n!)
+
 ## #1 Solution
 
 - Approach: Backtracking with set

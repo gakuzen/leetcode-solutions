@@ -12,6 +12,10 @@
 >
 > Although the above answer is in lexicographical order, your answer could be in any order you want.
 
+## BCR
+
+O(3^n) or O(4^n)
+
 ## #1 Solution
 
 - Approach: Recursion and DFS

@@ -16,6 +16,10 @@
 > All inputs will be in lowercase.
 > The order of your output does not matter.
 
+## BCR
+
+O(n\*k)
+
 ## #1 Solution
 
 - Approach: Anagrams must have exact same characters occurence

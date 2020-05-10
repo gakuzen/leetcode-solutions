@@ -29,6 +29,10 @@
 > Input: "{[]}"
 > Output: true
 
+## BCR
+
+O(n)
+
 ## #1 Solution
 
 - Approach: Stack opening ones and pop closing ones

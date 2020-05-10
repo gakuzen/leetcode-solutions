@@ -12,6 +12,10 @@
 > Input: "cbbd"
 > Output: "bb"
 
+## BCR
+
+O(n^2)
+
 ## #1 Solution
 
 - Approach: Two pointers by moving center
