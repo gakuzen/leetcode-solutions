@@ -33,11 +33,11 @@ nil
 ## #1 Solution
 
 - Approach: Backtracking
-- Time complexity: O(n^target), n is the length of candidates array
-- Space complexity: O(target)
+- Time complexity: O(n^2), n is the length of candidates array
+- Space complexity: O(n^2)
 
 ## #2 Solution
 
 - Approach: Iterative
-- Time complexity: O(n^target), n is the length of candidates array
-- Space complexity:
+- Time complexity: O(n^2), n is the length of candidates array
+- Space complexity: O(n^2)
